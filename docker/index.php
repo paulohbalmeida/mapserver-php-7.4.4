@@ -1,9 +1,9 @@
 <html>
 <head>
 <script>
-window.location="i3geo/init/index.php" ;
+window.location="index.php" ;
 </script>
-<head>
+</head>
 <body>
 </body>
 </html>
