@@ -54,6 +54,7 @@ RUN chmod uga+x /usr/local/bin/install-php-extensions && sync && \
         -DWITH_SVGCAIRO=OFF \
         -DWITH_GIF=OFF \
 	-DWITH_PROTOBUFC=0 \
+	–DWITH_PHPNG=ON \
         ../ >../configure.out.txt && \
     make && \
     make install && \
